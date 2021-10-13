@@ -5,7 +5,7 @@
 import Combine
 import Foundation
 
-struct ___VARIABLE_productName:identifier___Presenter: PresenterType {
+final class ___VARIABLE_productName:identifier___Presenter: PresenterType {
 
     let inputFromInteractor = PassthroughSubject<___VARIABLE_productName:identifier___Interactor.Response, Never>()
     let outputToViewController = PassthroughSubject<___VARIABLE_productName:identifier___ViewController.State, Never>()
@@ -17,13 +17,16 @@ struct ___VARIABLE_productName:identifier___Presenter: PresenterType {
         self.coordinator = coordinator
         bindInputOutput()
     }
+    deinit {
+        Logger.log(String(describing: self), type: .deinited)
+    }
 }
 
 // MARK: Internal
 
 private extension ___VARIABLE_productName:identifier___Presenter {
     
-    mutating func bindInputOutput() {
+    func bindInputOutput() {
         inputFromInteractor
             .map { interactorResponse in
                 switch interactorResponse {

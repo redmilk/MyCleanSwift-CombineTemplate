@@ -7,28 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791FC2B427176C9E004EA3EC /* ___FILEBASENAME___Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2AB27176C9D004EA3EC /* ___FILEBASENAME___Presenter.swift */; };
+		791FC2B527176C9E004EA3EC /* ___FILEBASENAME___Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2AC27176C9D004EA3EC /* ___FILEBASENAME___Interactor.swift */; };
+		791FC2B627176C9E004EA3EC /* ___FILEBASENAME___ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2AD27176C9E004EA3EC /* ___FILEBASENAME___ViewController.swift */; };
+		791FC2B727176C9E004EA3EC /* ___FILEBASENAME___Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2AE27176C9E004EA3EC /* ___FILEBASENAME___Configurator.swift */; };
+		791FC2B827176C9E004EA3EC /* TemplateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 791FC2AF27176C9E004EA3EC /* TemplateIcon.png */; };
+		791FC2B927176C9E004EA3EC /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 791FC2B027176C9E004EA3EC /* TemplateInfo.plist */; };
+		791FC2BA27176C9E004EA3EC /* TemplateIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 791FC2B127176C9E004EA3EC /* TemplateIcon@2x.png */; };
+		791FC2BB27176C9E004EA3EC /* ___FILEBASENAME___ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 791FC2B227176C9E004EA3EC /* ___FILEBASENAME___ViewController.xib */; };
+		791FC2BC27176C9E004EA3EC /* ___FILEBASENAME___Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2B327176C9E004EA3EC /* ___FILEBASENAME___Coordinator.swift */; };
+		791FC2C427176CCD004EA3EC /* ModuleLayersBinderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2BF27176CCD004EA3EC /* ModuleLayersBinderType.swift */; };
+		791FC2C527176CCD004EA3EC /* ViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2C027176CCD004EA3EC /* ViewControllerType.swift */; };
+		791FC2C627176CCD004EA3EC /* InteractorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2C127176CCD004EA3EC /* InteractorType.swift */; };
+		791FC2C727176CCD004EA3EC /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2C227176CCD004EA3EC /* CoordinatorType.swift */; };
+		791FC2C827176CCD004EA3EC /* PresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FC2C327176CCD004EA3EC /* PresenterType.swift */; };
 		79D23DE12710FC56003DBB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DE02710FC56003DBB07 /* AppDelegate.swift */; };
 		79D23DE32710FC56003DBB07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DE22710FC56003DBB07 /* SceneDelegate.swift */; };
 		79D23DE52710FC56003DBB07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DE42710FC56003DBB07 /* ViewController.swift */; };
 		79D23DE82710FC56003DBB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DE62710FC56003DBB07 /* Main.storyboard */; };
 		79D23DEA2710FC59003DBB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DE92710FC59003DBB07 /* Assets.xcassets */; };
 		79D23DED2710FC59003DBB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DEB2710FC59003DBB07 /* LaunchScreen.storyboard */; };
-		79D23DFE2710FC95003DBB07 /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DF62710FC95003DBB07 /* TemplateInfo.plist */; };
-		79D23DFF2710FC95003DBB07 /* ___FILEBASENAME___Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DF72710FC95003DBB07 /* ___FILEBASENAME___Interactor.swift */; };
-		79D23E002710FC95003DBB07 /* ___FILEBASENAME___Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DF82710FC95003DBB07 /* ___FILEBASENAME___Presenter.swift */; };
-		79D23E012710FC95003DBB07 /* ___FILEBASENAME___Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DF92710FC95003DBB07 /* ___FILEBASENAME___Configurator.swift */; };
-		79D23E022710FC95003DBB07 /* ___FILEBASENAME___Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DFA2710FC95003DBB07 /* ___FILEBASENAME___Coordinator.swift */; };
-		79D23E032710FC95003DBB07 /* TemplateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DFB2710FC95003DBB07 /* TemplateIcon.png */; };
-		79D23E042710FC95003DBB07 /* TemplateIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D23DFC2710FC95003DBB07 /* TemplateIcon@2x.png */; };
-		79D23E052710FC95003DBB07 /* ___FILEBASENAME___ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23DFD2710FC95003DBB07 /* ___FILEBASENAME___ViewController.swift */; };
-		79D23E0E2710FE84003DBB07 /* ViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23E092710FE84003DBB07 /* ViewControllerType.swift */; };
-		79D23E0F2710FE84003DBB07 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23E0A2710FE84003DBB07 /* CoordinatorType.swift */; };
-		79D23E102710FE84003DBB07 /* PresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23E0B2710FE84003DBB07 /* PresenterType.swift */; };
-		79D23E112710FE84003DBB07 /* ModuleLayersBinderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23E0C2710FE84003DBB07 /* ModuleLayersBinderType.swift */; };
-		79D23E122710FE84003DBB07 /* InteractorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D23E0D2710FE84003DBB07 /* InteractorType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		791FC2AB27176C9D004EA3EC /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
+		791FC2AC27176C9D004EA3EC /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
+		791FC2AD27176C9E004EA3EC /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
+		791FC2AE27176C9E004EA3EC /* ___FILEBASENAME___Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Configurator.swift"; sourceTree = "<group>"; };
+		791FC2AF27176C9E004EA3EC /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
+		791FC2B027176C9E004EA3EC /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		791FC2B127176C9E004EA3EC /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
+		791FC2B227176C9E004EA3EC /* ___FILEBASENAME___ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "___FILEBASENAME___ViewController.xib"; sourceTree = "<group>"; };
+		791FC2B327176C9E004EA3EC /* ___FILEBASENAME___Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Coordinator.swift"; sourceTree = "<group>"; };
+		791FC2BF27176CCD004EA3EC /* ModuleLayersBinderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleLayersBinderType.swift; sourceTree = "<group>"; };
+		791FC2C027176CCD004EA3EC /* ViewControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerType.swift; sourceTree = "<group>"; };
+		791FC2C127176CCD004EA3EC /* InteractorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorType.swift; sourceTree = "<group>"; };
+		791FC2C227176CCD004EA3EC /* CoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		791FC2C327176CCD004EA3EC /* PresenterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterType.swift; sourceTree = "<group>"; };
 		79D23DDD2710FC56003DBB07 /* CleanSwiftCombineTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwiftCombineTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D23DE02710FC56003DBB07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79D23DE22710FC56003DBB07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,19 +52,6 @@
 		79D23DE92710FC59003DBB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79D23DEC2710FC59003DBB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79D23DEE2710FC59003DBB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79D23DF62710FC95003DBB07 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		79D23DF72710FC95003DBB07 /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
-		79D23DF82710FC95003DBB07 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
-		79D23DF92710FC95003DBB07 /* ___FILEBASENAME___Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Configurator.swift"; sourceTree = "<group>"; };
-		79D23DFA2710FC95003DBB07 /* ___FILEBASENAME___Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Coordinator.swift"; sourceTree = "<group>"; };
-		79D23DFB2710FC95003DBB07 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
-		79D23DFC2710FC95003DBB07 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
-		79D23DFD2710FC95003DBB07 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
-		79D23E092710FE84003DBB07 /* ViewControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerType.swift; sourceTree = "<group>"; };
-		79D23E0A2710FE84003DBB07 /* CoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
-		79D23E0B2710FE84003DBB07 /* PresenterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterType.swift; sourceTree = "<group>"; };
-		79D23E0C2710FE84003DBB07 /* ModuleLayersBinderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleLayersBinderType.swift; sourceTree = "<group>"; };
-		79D23E0D2710FE84003DBB07 /* InteractorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,14 +100,15 @@
 		79D23DF52710FC6A003DBB07 /* TemplateFiles */ = {
 			isa = PBXGroup;
 			children = (
-				79D23DF92710FC95003DBB07 /* ___FILEBASENAME___Configurator.swift */,
-				79D23DFA2710FC95003DBB07 /* ___FILEBASENAME___Coordinator.swift */,
-				79D23DF72710FC95003DBB07 /* ___FILEBASENAME___Interactor.swift */,
-				79D23DF82710FC95003DBB07 /* ___FILEBASENAME___Presenter.swift */,
-				79D23DFD2710FC95003DBB07 /* ___FILEBASENAME___ViewController.swift */,
-				79D23DFB2710FC95003DBB07 /* TemplateIcon.png */,
-				79D23DFC2710FC95003DBB07 /* TemplateIcon@2x.png */,
-				79D23DF62710FC95003DBB07 /* TemplateInfo.plist */,
+				791FC2AE27176C9E004EA3EC /* ___FILEBASENAME___Configurator.swift */,
+				791FC2B327176C9E004EA3EC /* ___FILEBASENAME___Coordinator.swift */,
+				791FC2AC27176C9D004EA3EC /* ___FILEBASENAME___Interactor.swift */,
+				791FC2AB27176C9D004EA3EC /* ___FILEBASENAME___Presenter.swift */,
+				791FC2AD27176C9E004EA3EC /* ___FILEBASENAME___ViewController.swift */,
+				791FC2B227176C9E004EA3EC /* ___FILEBASENAME___ViewController.xib */,
+				791FC2AF27176C9E004EA3EC /* TemplateIcon.png */,
+				791FC2B127176C9E004EA3EC /* TemplateIcon@2x.png */,
+				791FC2B027176C9E004EA3EC /* TemplateInfo.plist */,
 			);
 			path = TemplateFiles;
 			sourceTree = "<group>";
@@ -113,11 +116,11 @@
 		79D23E082710FE66003DBB07 /* CleanSwiftComponents */ = {
 			isa = PBXGroup;
 			children = (
-				79D23E092710FE84003DBB07 /* ViewControllerType.swift */,
-				79D23E0D2710FE84003DBB07 /* InteractorType.swift */,
-				79D23E0B2710FE84003DBB07 /* PresenterType.swift */,
-				79D23E0C2710FE84003DBB07 /* ModuleLayersBinderType.swift */,
-				79D23E0A2710FE84003DBB07 /* CoordinatorType.swift */,
+				791FC2C227176CCD004EA3EC /* CoordinatorType.swift */,
+				791FC2C127176CCD004EA3EC /* InteractorType.swift */,
+				791FC2BF27176CCD004EA3EC /* ModuleLayersBinderType.swift */,
+				791FC2C327176CCD004EA3EC /* PresenterType.swift */,
+				791FC2C027176CCD004EA3EC /* ViewControllerType.swift */,
 			);
 			path = CleanSwiftComponents;
 			sourceTree = "<group>";
@@ -179,12 +182,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D23DFE2710FC95003DBB07 /* TemplateInfo.plist in Resources */,
+				791FC2B827176C9E004EA3EC /* TemplateIcon.png in Resources */,
 				79D23DED2710FC59003DBB07 /* LaunchScreen.storyboard in Resources */,
 				79D23DEA2710FC59003DBB07 /* Assets.xcassets in Resources */,
-				79D23E032710FC95003DBB07 /* TemplateIcon.png in Resources */,
 				79D23DE82710FC56003DBB07 /* Main.storyboard in Resources */,
-				79D23E042710FC95003DBB07 /* TemplateIcon@2x.png in Resources */,
+				791FC2B927176C9E004EA3EC /* TemplateInfo.plist in Resources */,
+				791FC2BA27176C9E004EA3EC /* TemplateIcon@2x.png in Resources */,
+				791FC2BB27176C9E004EA3EC /* ___FILEBASENAME___ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,19 +199,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D23E012710FC95003DBB07 /* ___FILEBASENAME___Configurator.swift in Sources */,
-				79D23E022710FC95003DBB07 /* ___FILEBASENAME___Coordinator.swift in Sources */,
+				791FC2B727176C9E004EA3EC /* ___FILEBASENAME___Configurator.swift in Sources */,
+				791FC2C427176CCD004EA3EC /* ModuleLayersBinderType.swift in Sources */,
+				791FC2C727176CCD004EA3EC /* CoordinatorType.swift in Sources */,
+				791FC2C827176CCD004EA3EC /* PresenterType.swift in Sources */,
+				791FC2B527176C9E004EA3EC /* ___FILEBASENAME___Interactor.swift in Sources */,
+				791FC2C627176CCD004EA3EC /* InteractorType.swift in Sources */,
 				79D23DE52710FC56003DBB07 /* ViewController.swift in Sources */,
 				79D23DE12710FC56003DBB07 /* AppDelegate.swift in Sources */,
-				79D23E122710FE84003DBB07 /* InteractorType.swift in Sources */,
-				79D23E0F2710FE84003DBB07 /* CoordinatorType.swift in Sources */,
-				79D23E102710FE84003DBB07 /* PresenterType.swift in Sources */,
-				79D23DFF2710FC95003DBB07 /* ___FILEBASENAME___Interactor.swift in Sources */,
-				79D23E112710FE84003DBB07 /* ModuleLayersBinderType.swift in Sources */,
-				79D23E002710FC95003DBB07 /* ___FILEBASENAME___Presenter.swift in Sources */,
-				79D23E052710FC95003DBB07 /* ___FILEBASENAME___ViewController.swift in Sources */,
+				791FC2BC27176C9E004EA3EC /* ___FILEBASENAME___Coordinator.swift in Sources */,
+				791FC2C527176CCD004EA3EC /* ViewControllerType.swift in Sources */,
+				791FC2B427176C9E004EA3EC /* ___FILEBASENAME___Presenter.swift in Sources */,
+				791FC2B627176C9E004EA3EC /* ___FILEBASENAME___ViewController.swift in Sources */,
 				79D23DE32710FC56003DBB07 /* SceneDelegate.swift in Sources */,
-				79D23E0E2710FE84003DBB07 /* ViewControllerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

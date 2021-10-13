@@ -8,19 +8,18 @@
 import UIKit.UIViewController
 import Combine
 
-protocol ModuleLayersBinderType {
+protocol ModuleLayersBinderType: class {
+    associatedtype ViewController: ViewControllerType
     associatedtype Interactor: InteractorType
     associatedtype Presenter: PresenterType
-    associatedtype ViewController: ViewControllerType
     
+    var controller: ViewController { get }
     var interactor: Interactor { get }
     var presenter: Presenter { get }
-    var controller: ViewController { get }
-    
-    init(interactor: Interactor, presenter: Presenter, controller: ViewController)
     
     /// ViewController + Presenter + Interactor layers INPUT and OUTPUT binding
-    /// call in coordinator start()
+    /// called in coordinator `start()`
+    
     func bindModuleLayers(controller: ViewController, bag: inout Set<AnyCancellable>)
 }
 
@@ -30,19 +29,21 @@ extension ModuleLayersBinderType where
     Presenter.ViewControllerState == ViewController.ViewControllerState {
     
     func bindModuleLayers(controller: ViewController, bag: inout Set<AnyCancellable>) {
+        /// Requests(Actions) from VC --> Interactor
         controller.outputToInteractor
             .subscribe(interactor.inputFromController)
             .store(in: &bag)
-        
+        /// Response from Interactor --> Presenter
         interactor.outputToPresenter
             .subscribe(presenter.inputFromInteractor)
             .store(in: &bag)
-        
+        /// Prepared ViewData or States from Presenter --> ViewController
         presenter.outputToViewController
             .receive(on: DispatchQueue.main)
             .subscribe(controller.inputFromPresenter)
             .store(in: &bag)
-        
+        /// Need only to subscribe ViewController to Presenter's Output
+        /// And send Actions to Interactor's Input
         controller.storeSubscriptions(&bag)
     }
 }

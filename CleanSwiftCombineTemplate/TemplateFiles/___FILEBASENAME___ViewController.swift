@@ -29,6 +29,11 @@ final class ___VARIABLE_productName:identifier___ViewController: UIViewControlle
     
     init() {
         super.init(nibName: String(describing: ___VARIABLE_productName:identifier___ViewController.self), bundle: nil)
+        /**
+         CONNECT FILE'S OWNER TO SUPERVIEW IN XIB FILE
+         CONNECT FILE'S OWNER TO SUPERVIEW IN XIB FILE
+         CONNECT FILE'S OWNER TO SUPERVIEW IN XIB FILE
+         */
     }
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

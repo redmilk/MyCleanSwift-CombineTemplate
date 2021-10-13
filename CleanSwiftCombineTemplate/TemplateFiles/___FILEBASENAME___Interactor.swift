@@ -5,7 +5,7 @@
 import Foundation
 import Combine
 
-struct ___VARIABLE_productName:identifier___Interactor: InteractorType {
+final class ___VARIABLE_productName:identifier___Interactor: InteractorType {
     
     enum Response {
         case dummy
@@ -17,20 +17,26 @@ struct ___VARIABLE_productName:identifier___Interactor: InteractorType {
     private var bag = Set<AnyCancellable>()
     
     init() {
-        bindInputOutput()
+        handleInput()
+    }
+    deinit {
+        Logger.log(String(describing: self), type: .deinited)
     }
 }
 
 // MARK: Internal
 
 private extension ___VARIABLE_productName:identifier___Interactor {
-    mutating func bindInputOutput() {
-        inputFromController.map { [self] action in
+    func handleInput() {
+        inputFromController.sink { [self] action in
             switch action {
-            case .dummy: return Response.dummy
+            case .dummy: break
             }
         }
-        .subscribe(outputToPresenter)
         .store(in: &bag)
+    }
+
+    func outputToPresenter(_ response: Response) {
+        
     }
 }

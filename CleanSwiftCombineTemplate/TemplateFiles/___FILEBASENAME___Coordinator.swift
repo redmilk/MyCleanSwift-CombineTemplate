@@ -19,7 +19,7 @@ final class ___VARIABLE_productName:identifier___Coordinator: CoordinatorType, _
         self.window = window
     }
     deinit {
-        print("Deinit Coordinator")
+        Logger.log(String(describing: self), type: .deinited)
     }
     
     func start() {
@@ -28,9 +28,9 @@ final class ___VARIABLE_productName:identifier___Coordinator: CoordinatorType, _
         let interactor = ___VARIABLE_productName:identifier___Interactor()
         let presenter = ___VARIABLE_productName:identifier___Presenter(coordinator: self)
         configurator = ___VARIABLE_productName:identifier___Configurator(
+            controller: controller,
             interactor: interactor,
-            presenter: presenter,
-            controller: controller
+            presenter: presenter
         )
         configurator?.bindModuleLayers(controller: controller, bag: &bag)
 
